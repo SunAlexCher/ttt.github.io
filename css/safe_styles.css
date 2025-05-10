@@ -1,0 +1,111 @@
+/* Общие стили */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    height: 100vh;
+}
+
+/* Шапка */
+.header {
+    background-color: #191970;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Верхнее изображение */
+.header .top-left-image {
+    position: absolute;
+    top: 0;
+    left: -7.1428%;
+    width: 30%;
+    max-height: 80%;
+    object-fit: contain;
+}
+
+/* Кнопка "Вернуться на главную" */
+.back-button {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Контент */
+.content {
+    width: 70%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /*  position: relative;  Удаляем относительное позиционирование  */
+}
+
+/* Заголовок на странице */
+.content h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+/* Секции */
+.content .section {
+    margin-bottom: 20px;
+}
+
+/* Стиль для пунктов */
+.content .section p span {
+    font-size: 1.2em;
+    margin-right: 5px;
+    color: #333;
+}
+
+/* Списки */
+.content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Элементы списка */
+.content li {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+/* Стиль для абзацев */
+.content p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Заголовок альтернативы */
+.content h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+/* Нижнее изображение */
+.bottom-right-image {
+    position: fixed;
+    bottom: 5px;
+    right: 0; /*  Прижимаем к правому краю */
+    width: 42%; /* Увеличенная ширина изображения */
+    max-height: 27%; /*  Увеличенная максимальная высота */
+    object-fit: contain;
+    opacity: 0.7;
+}
